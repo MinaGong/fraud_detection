@@ -6,7 +6,7 @@ The primary challenge in this dataset is its severe class imbalance, where fraud
 ## Structure at a Glance
 This repository is organized into two main projects, each contained within its own Jupyter Notebook.
 
-### 1. Supervised Learning for Fraud Detection** 
+### 1. Supervised Learning for Fraud Detection
 [View Supervised Learning Notebook](https://github.com/MinaGong/fraud_detection/blob/main/fraud_detection_supervised.ipynb)
 
 This project focuses on building a classification model using labeled data. The goal is to train a model that can accurately distinguish between fraudulent and normal transactions, with a strong emphasis on maximizing recall for the fraud class to minimize missed fraud cases.
@@ -20,7 +20,7 @@ This project focuses on building a classification model using labeled data. The 
 * **Final Evaluation**: Assessed the tuned model on the original, imbalanced test set to measure its real-world effectiveness.
 
 
-### 2. **Unsupervised Learning for Anomaly Detection** 
+### 2. Unsupervised Learning for Anomaly Detection
 [View Unsupervised Learning Notebook](https://github.com/MinaGong/fraud_detection/blob/main/fraud_detection_unsupervised.ipynb)
 
 This project takes an unsupervised approach, treating fraud detection as an anomaly detection problem. The goal is to identify transactions that are "few and different" without using any pre-existing labels. This method is particularly useful for discovering new or evolving fraud patterns.
